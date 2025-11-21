@@ -24,7 +24,7 @@ export const services = [
   },
  {
     ico: <Braces />,
-    title: "Full-Stack Web Development",
+    title: "Frontend Web Development",
     description:
       "Develop robust and scalable web applications using modern frameworks like React, Next.js, and Node.js. Focus on creating responsive, user-friendly interfaces with strong backend integration.",
   },
@@ -58,51 +58,50 @@ export const services = [
 
 export const works = [
   {
-    title: "MUST Multilingual Hate Speech Detection System",
+    title: "Green Vision",
     description:
-      "A transformer-based model detecting hate speech in Urdu, Roman Urdu, and English texts. Fine-tuned BERT and XLM RoBERTa models to capture linguistic and contextual nuances for precise hate, offensive,and neutral classification.",
+      "An AI-powered web application that detects crop diseases using deep learning. Built with TensorFlow, Flask, and a fine-tuned VGG19 model, this project aims to support farmers and agricultural experts with quick, reliable disease detection directly from leaf images.",
     className: "md:col-span-1",
-    image: "/images/works/work1.png",
-    link: "/"
+    image: "/images/works/work1.jpg",
+    link: "https://github.com/MansoobeZahra/Crop-Disease-Detector-Web-App?tab=readme-ov-file"
   },
   {
-    title: "Mine Explorer- The Game of Stones",
+    title: "Multi-Agent-Adaptive_E-Learning_System",
     description:
-      "AI-powered automation for geological report insights and real-time chatbot assistance for investors and visitors.",
+      "Adaptive AI tutoring that reads your mind, adjusts difficulty instantly, and turns struggling into mastery. Each lesson evolves with YOU—practice coding live, get instant hints, and watch your knowledge grow.",
     className: "md:col-span-1",
-    image: "/images/works/work7.png",
-    link: "/"
+    image: "/images/works/work7.jpg",
+    link: "https://github.com/MansoobeZahra/Multi-Agent-Adaptive_E-Learning_System"
   },
   {
-    title: "Diseases Detection and Drug Recommending Model",
-    description: " AI based model which detects diseases from user input and recommends top three medicines.",
+    title: "Exo_Vision",
+    description: "ExoVision-AI is a machine learning–driven web application that automatically classifies celestial objects as Confirmed Exoplanets or Planetary Candidates using NASA's open K2 Planets and Candidates Catalog.Developed by a team of passionate space and AI enthusiasts for the NASA Space Apps Hackathon 2025, this project bridges data science and astrophysics through real-time predictive modeling.",
     className: "md:col-span-1",
-    image: "/images/works/work4.png",
-    link: "/"
+    image: "/images/works/work4.jpg",
+    link: "https://github.com/MansoobeZahra/Exo_Vision"
   },
   {
-    title: "Aqua Guage",
+    title: "Shoplifting Detection using Yolo_v12",
     description:
-      "Implemented using machine learning models to predict city rainfall",
+      "Automated detection of product removal/shoplifting in retail environments",
     className: "md:col-span-1",
-    image: "/images/works/work3.png",
-    link: "/"
+    image: "/images/works/work3.jpg",
+    link: "https://github.com/MansoobeZahra/Shoplifting_detection_using_Yolov12"
   },
   {
-    title: "NLP Chatbot",
+    title: "MindScan_-Mental-Health-Detection-System",
     description:
-      "n AI chatbot using advanced NLP for accurate intent recognition, context-aware conversations, and natural language responses.",
+      "Mental Health Detection System AI-powered depression detection using NLP and machine learning. Includes text analysis and PHQ-9 questionnaire scoring.",
     className: "md:col-span-1",
-    image: "/images/works/work6.png",
-    link: "/"
+    image: "/images/works/work6.jpg",
+    link: "https://github.com/MansoobeZahra/MindScan_-Mental-Health-Detection-System"
   },
   {
-    title: "Tourism Information Portal",
-    description:
-      " a scalable portal with real-time booking, reviews, and ratings to enhance transparency and trust.",
+    title: "Boston-house-price-prediction",
+    description: "A Streamlit-based web application that predicts median housing prices in Boston using Polynomial Regression, built from the Boston Housing Dataset. It supports interactive model tuning, residual visualization, and user-defined prediction.",
     className: "md:col-span-1",
-    image: "/images/works/work5.png",
-    link: "/"
+    image: "/images/works/work4.jpg",
+    link: "https://github.com/MansoobeZahra/Boston-house-price-prediction"
   },
 ];
 
@@ -110,7 +109,7 @@ export const socialMedia = [
   {
     id: 1,
     img: <FaLinkedinIn />,
-    href: "http://www.linkedin.com/in/zain-abbas1",
+    href: "http://www.linkedin.com/in/mansoobezahra",
   },
   {
     id: 2,
@@ -120,12 +119,12 @@ export const socialMedia = [
   {
     id: 3,
     img: <FaInstagram />,
-    href: "https://www.instagram.com/abbas__zayn/",
+    href: "https://www.instagram.com/mansoobezahra/",
   },
 ];
 
 export const skills = [
-  { name: "AI/ML", description: "", percentage: 88 },
+  { name: "AI/ML", description: "", percentage: 60 },
   { name: "Web Development", description: "", percentage: 75 },
 ];
 

@@ -1,33 +1,34 @@
 import Image from "next/image";
 import { ubuntu } from "@/data/constants/fonts";
-import profileImg from "/public/profile12.png";
+import profileImg from "/public/mansoob.jpg";
 import { FlipWords } from "./ui/flip-words";
 
 export default function HeroSection() {
   return (
     // <section className="w-full flex flex-col items-center justify-center py-28 bg-[#fff8f5] dark:bg-[#0f0f0f] relative overflow-hidden">
-    <section className="w-screen relative left-[50%] right-[50%] ml-[-50vw] mr-[-50vw] flex flex-col items-center justify-center py-28 bg-[#fff8f5] dark:bg-[#0f0f0f] overflow-hidden">
+    <section className="w-screen relative left-[50%] right-[50%] ml-[-50vw] mr-[-50vw] flex flex-col items-center justify-center py-28  overflow-hidden">
 
       {/* Top Section with Image Centered */}
       <div className="relative w-full flex items-center justify-center py-10 md:py-16">
         {/* Background Shape Behind Image */}
-        <div className="absolute w-[340px] h-[340px] md:w-[440px] md:h-[440px] bg-black/80 rounded-full -z-10"></div>
+        <div className="absolute w-[340px] h-[340px] md:w-[440px] md:h-[440px]"></div>
 
         {/* Left Text */}
         <div className="absolute left-10 md:left-32 text-left">
-          <h1 className="text-3xl md:text-5xl font-bold text-gray-900 dark:text-white">
-            I am <br/><span className="text-red-700">John Doe</span>
+          <h1 className="text-3xl md:text-4.8xl font-bold text-gray-900 dark:text-white">
+            I am <br/><span className="text-red-700">Mansoob-e-Zahra</span>
           </h1>
         </div>
     
   <div className="flex justify-center items-center mx-20 md:mx-40 mb-8"> 
 {/* Center Image (Canva-styled) */}
 
-  <div className="relative w-40 h-40 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 flex justify-center items-center">
+  <div className="relative w-40 h-40 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 
+    rounded-full overflow-hidden flex justify-center items-center border border-red-600">
     <Image
       src={profileImg}
       alt="profile photo"
-      className="object-contain drop-shadow-[0_0_25px_rgba(255,0,0,0.4)]"
+      className="object-cover"
       fill
       priority
     />
@@ -95,3 +96,4 @@ export default function HeroSection() {
     </section>
   );
 }
+

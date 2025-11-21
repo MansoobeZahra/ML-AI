@@ -6,7 +6,6 @@ import { FloatingNav } from "@/components/ui/floating-navbar";
 import { Meteors } from "@/components/ui/meteors";
 import Works from "@/components/works-section";
 import { navItems } from "@/data/index";
-import PhotographySection from "@/components/PhotographySection";
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
       <Citation />
       <Services />
       <Skills />
-      <PhotographySection />
       <Works />
     </main>
   );

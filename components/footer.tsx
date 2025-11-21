@@ -20,7 +20,7 @@ export default function Footer() {
             achieve your goals.
           </p>
           <a
-            href="mailto:abbaszayn08@gmail.com"
+            href="mailto:mansoobezehra@gmail.com"
        className="uppercase font-semibold text-xs bg-cool-black dark:bg-white dark:text-black text-white 
              border-2 border-red-500 rounded-full px-8 py-4 flex items-center justify-center 
              transition-all duration-300 ease-in-out 
@@ -32,7 +32,7 @@ export default function Footer() {
           </a>        </div>
         <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
           <p className="md:text-base text-sm md:font-normal font-light">
-            Copyright © {new Date().getFullYear()} Zayn Abbas. All rights reserved.
+            Copyright © {new Date().getFullYear()} Mansoob-e-Zahra. All rights reserved.
           </p>
           <div className="flex items-center md:gap-3 gap-6 mt-4 md:md-0">
             {socialMedia.map((info,index) => (
