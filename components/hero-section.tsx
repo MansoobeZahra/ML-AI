@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { ubuntu } from "@/data/constants/fonts";
-import profileImg from "/public/mansoob.jpg";
+import profileImg from "/public/mansoob.PNG";
 import { FlipWords } from "./ui/flip-words";
 
 export default function HeroSection() {
